@@ -10,7 +10,7 @@
 }
 
 body{
-    margin: 50px 150px 0 150px;
+    margin: 50px 170px 0 170px;
     font-family: "typo1", sans-serif;
     max-width: 90%;
     background-color: #FFFCEC;
@@ -18,6 +18,7 @@ body{
     background-repeat: no-repeat;
     background-position: bottom right;
     background-size: cover;
+    z-index: -1;
 }
 
 
@@ -46,15 +47,37 @@ blockquote{
     display: inline-block;
 }
 
+#f_element{
+    background-image: url(src/bien.png); 
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 290px;
+}
+
+#s_element{
+    background-image: url(src/mal.png); 
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 260px;
+}
+
+#t_element{
+    background-image: url(src/chat.png); 
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 265px;
+}
+
 p{
     font-size: 16px;
 }
 
-.firstP{
+#firstP{
     font-weight: bold;
+    display: inline;
 }
 
-#lgP{
+.lgP{
     font-family: "typo3";
     font-size: 17px;
     line-height: 1.5;
@@ -89,6 +112,24 @@ q{
 #farmers{
     text-decoration: underline dotted;
     color: rgb(61, 22, 22);
+}
+
+#img1{
+    float: right;
+    margin-left: 15px;
+}
+
+#img2{
+    text-align: center;
+    position: relative;
+}
+
+#caption{
+    position: relative;
+}
+
+#img3{
+    float: left;
 }
 
 
@@ -154,6 +195,19 @@ a:visited{
 #link{
     color: black;
 }
+
+.notification{
+    background:white;
+    padding:.2rem 1rem;
+    border:3px solid #DDDDCC;
+    border-radius: 20px;
+    width:250px;
+    font-weight:bold;
+    color: #333300;
+    right: 10px;
+    bottom: 10px;
+    position: fixed;
+  }
 
 
 /*---------------------------------------FOOTER----------------------------------------*/
