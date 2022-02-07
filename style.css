@@ -1,0 +1,30 @@
+@font-face{
+    font-family:"typo";
+    src: url("ressources/Helvetica.ttf") format("truetype");
+
+    font-family:"typo1";
+    src: url("ressources/bahnschrift.ttf") format("truetype");
+
+    font-family:"typo2";
+    src: url("ressources/Marcellus-Regular.ttf") format("truetype");
+}
+
+body{
+    margin: 50px;
+    font-family: "typo1", sans-serif;
+}
+
+p{
+    font-size: 16px;
+}
+
+table,
+td {
+    border: 1px solid #333;
+}
+
+thead,
+tfoot {
+    background-color: #333;
+    color: #fff;
+}
