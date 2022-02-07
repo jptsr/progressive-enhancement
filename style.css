@@ -10,28 +10,85 @@
 }
 
 body{
-    margin: 50px 100px 0 100px;
+    margin: 50px 150px 0 150px;
     font-family: "typo1", sans-serif;
+    max-width: 90%;
+    background-color: #FFFCEC;
+    background-image:  url(https://swall.teahub.io/photos/small/40-402760_light-color-background-for-website.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: cover;
 }
 
 
 /*---------------------------------------------------------------------------*/
 
 
+header{
+    text-align: center;
+}
+
+header > h3{
+    background-color: rgb(247, 227, 141);
+    max-width: 50%;
+    display: inline-block;
+}
+
 blockquote{
     font-style: italic;
-    color: #777;
+    font-size: 160%;
     font-family: "typo3";
+    background-color: rgb(211, 211, 211);
+    max-width: 50%;
+    margin: 80px 0;
+    border-left: 3px solid firebrick;
+    padding: 30px;
+    display: inline-block;
 }
 
 p{
     font-size: 16px;
 }
 
+.firstP{
+    font-weight: bold;
+}
+
+#lgP{
+    font-family: "typo3";
+    font-size: 17px;
+    line-height: 1.5;
+    color: rgb(0, 42, 116);
+}
+
 figcaption{
     font-style: italic;
     font-size: 12px;
     font-family: "typo3";
+}
+
+q{
+    font-style: italic;
+}
+
+.good{
+    text-transform: uppercase;
+    color: green;
+}
+
+.bad{
+    text-transform: uppercase;
+    color: red;
+}
+
+#chinese{
+    text-decoration: underline dotted;
+    color: rgb(134, 87, 0);
+}
+
+#farmers{
+    text-decoration: underline dotted;
+    color: rgb(61, 22, 22);
 }
 
 
@@ -49,12 +106,20 @@ tfoot {
     color: #fff;
 }
 
+tr:nth-child(even) {background-color: #f2f2f2;}
+tr:nth-child(odd) {background-color: #aaaaaa;}
+
 
 /*-----------------------------------------LINK----------------------------------------*/
 
 
 a{
     color: white;
+    font-weight: bold;
+}
+
+a:visited{
+    color: chartreuse;
 }
 
 .onHover{
