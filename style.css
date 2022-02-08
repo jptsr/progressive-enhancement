@@ -72,16 +72,22 @@ p{
     font-size: 16px;
 }
 
-#firstP{
-    font-weight: bold;
-    display: inline;
-}
-
 .lgP{
     font-family: "typo3";
     font-size: 17px;
     line-height: 1.5;
     color: rgb(0, 42, 116);
+}
+
+#firstP{
+    font-weight: bold;
+    font-size: 27px;
+    clear: none;
+    margin-top: -150px;
+}
+
+#secondP{
+    margin-top: -3px;
 }
 
 figcaption{
@@ -114,22 +120,23 @@ q{
     color: rgb(61, 22, 22);
 }
 
+figure{
+    margin: 0;
+}
+
 #img1{
     float: right;
-    margin-left: 15px;
+    margin: 0 0 0px 20px;
 }
 
 #img2{
-    text-align: center;
-    position: relative;
-}
-
-#caption{
-    position: relative;
+    float: left;
+    margin: -10px 20px -12px 0px;
 }
 
 #img3{
     float: left;
+    margin: 0 30px 0 0;
 }
 
 
@@ -157,6 +164,10 @@ tr:nth-child(odd) {background-color: #aaaaaa;}
 a{
     color: white;
     font-weight: bold;
+}
+
+#link:link{
+    color: black;
 }
 
 a:visited{
@@ -190,10 +201,6 @@ a:visited{
 
 #textH1{
     transform: translate(65px, -45px);
-}
-
-#link{
-    color: black;
 }
 
 .notification{
